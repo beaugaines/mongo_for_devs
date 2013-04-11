@@ -9,11 +9,11 @@ connection = MongoClient('localhost', 27017)
 db = connection.test
 
 # handle to names collection
-names = db.names
+scores = db.scores
 
-item = names.find_one()
+item = scores.find_one()
 
-print item['name']
+print (str(item['type']) + ', ' + str(item['score']))
 
 
 
