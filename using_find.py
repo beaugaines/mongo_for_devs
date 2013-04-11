@@ -15,6 +15,18 @@ def find():
 
     query = {'type':'exam'}
 
+    try:
+        curs = scores.find(query)
+    except:
+        print 'Unexpected error: ', sys.exc_info()[0]
+
+    sanity = 0
+    for doc in curs:
+        print doc
+        sanity += 1
+        if (sanity > 10):
+            break
+
 
 def find_one():
 
@@ -29,4 +41,4 @@ def find_one():
 
     print doc
 
-find_one()
+find()
