@@ -23,7 +23,7 @@ def find_one():
     query = {'student_id':10}
 
     try:
-        doc = scores.find_one(query)
+        doc = scores.find(query)
     except:
         print 'Unexpected error: ', sys.exc_info()[0]
 
