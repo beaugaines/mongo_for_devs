@@ -20,7 +20,7 @@ def using_upsert():
 
         things.update({'thing':'apple'}, {'$set':{'color':'red', 'taste':'tannic'}}, upsert=True)
         things.update({'thing':'lychee'}, {'$set':{'color':'pink', 'genus':'Soapberry'}}, upsert=True)
-        things.update({'thing':'durian'}, {'$set':{'color':'brown', 'smell':'putrid'}, upsert=True})
+        things.update({'thing':'durian'}, {'$set':{'color':'brown', 'smell':'putrid'}}, upsert=True)
 
         durian = things.find_one({'thing':'durian'})
         print 'Behold the durian: ', durian
