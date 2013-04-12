@@ -11,7 +11,7 @@ db=connection.reddit
 stories = db.stories
 
 def find():
-    print 'find, at your command'
+    print 'at your command, kind master: '
 
     query = { 'title': { '$regex': 'Apple' } }
     projection = { 'title': 1, '_id': 0 }
