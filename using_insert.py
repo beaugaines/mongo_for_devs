@@ -18,8 +18,11 @@ pierre = {'name': 'Pierre Rochfoucauld', 'company': 'La Fete d\'Ane', 'interests
 
 try:
     people.insert(achmed)
-    people.insert(richard)
+    people.insert(pierre)
 
 except:
     print 'Mysterious error: ', sys.exc_info()[0]
-    
+
+
+print(achmed)
+print(pierre)
