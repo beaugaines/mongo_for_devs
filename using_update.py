@@ -12,6 +12,9 @@ db=connection.test
 scores=db.scores
 
 def remove_review_date():
+
+    db=connection.test
+    scores=db.scores
     print '\n\nremoving all review dates'
 
     try:
@@ -22,11 +25,14 @@ def remove_review_date():
 
 # replaces document wholesale
 def using_save():
+
+    db=connection.test
+    scores=db.scores
     print 'updating record using save'
 
     try:
         # get the doc
-        score = scores.find_one({'student': 1, 'type': 'homework'})
+        score = scores.find_one({'student': 1, 'type': 'exam'})
         print 'before: ', score
 
         # add review date
@@ -34,7 +40,9 @@ def using_save():
 
         # update the record with convenience method
         scores.save(score)
-        score = scores.find_one({'student':1, 'type':'homework'})
+
+        # retrieve updated record
+        score = scores.find_one({'student':1, 'type':'exam'})
         print 'after: ', score
     except:
         print 'Unexpected error: ', sys.exc_info()[0]
@@ -43,10 +51,12 @@ def using_save():
 # replaces document wholesale
 def using_update():
     
+    db=connection.test
+    scores=db.scores
     print 'updating record using update'
 
     try:
-        score = scores.find_one({'student':1, 'type':'homework'})
+        score = scores.find_one({'student':1, 'type':'exam'})
         print 'before: ', score
 
         # add review date
@@ -54,24 +64,30 @@ def using_update():
 
         # update rcord with update.  NB:  the record has an _id but
         # the DB is 'ok' with that b/c it matches the _id already there
-        scores.update({'student':1, 'type':'homework'}, score)
+        scores.update({'student':1, 'type':'exam'}, score)
+
+        # retrieve updated record
+        score = scores.find_one({'student':1, 'type':'exam'})
+        print 'after: ', score
     except:
         print 'Unexpected error:', sys.exc_info()[0]
         raise
 
 def using_set():
 
+    db=connection.test
+    scores=db.scores
     print 'updating record using set'
 
     try:
-        score = scores.find_one({'student':1, 'type':'homework'})
+        score = scores.find_one({'student':1, 'type':'exam'})
         print 'before: ', score
 
         # update using set
-        scores.update({'student':1, 'type':'homework'},
+        scores.update({'student':1, 'type':'exam'},
                     {'$set':{'review_date':datetime.datetime.utcnow()}})
 
-        score = scores.find_one({'student':1, 'type':'homework'})
+        score = scores.find_one({'student':1, 'type':'exam'})
         print 'after: ', score
     except:
         print 'Unexpected error: ', sys.exc_info()[0]
