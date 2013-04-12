@@ -28,4 +28,25 @@ def find():
         if sanity > 10:
             break
 
-find()
+# how to use dot notation
+
+def find2():
+    print 'ready to find using dot notation, dear overlord: '
+
+    query = { 'media.oembed.type': 'video' }
+    projection = { 'media.oembed.url': 1, '_id': 0 }
+
+    try:
+        curs = stories.find(query,projection)
+    except:
+        print 'Unknown error: ', sys.exc_info()[0]
+
+    sanity = 0
+    for doc in curs:
+        print doc
+        sanity += 1
+        if sanity > 10:
+            break
+
+
+find2()
