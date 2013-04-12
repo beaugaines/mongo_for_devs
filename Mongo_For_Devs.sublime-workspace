@@ -11,7 +11,7 @@
 			"file": "using_find.py",
 			"settings":
 			{
-				"buffer_size": 739,
+				"buffer_size": 807,
 				"line_ending": "Unix"
 			}
 		},
@@ -240,23 +240,25 @@
 					"file": "using_find.py",
 					"settings":
 					{
-						"buffer_size": 739,
+						"buffer_size": 807,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								739,
-								739
+								400,
+								400
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 151.0,
+						"translation.y": 95.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -273,8 +275,8 @@
 						"selection":
 						[
 							[
-								286,
-								286
+								285,
+								285
 							]
 						],
 						"settings":

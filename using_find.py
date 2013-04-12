@@ -13,11 +13,11 @@ scores = db.scores
 def find():
     print 'find, reporting for duty'
 
-    query = {'type':'exam'}
+    query = {'type':'exam', 'score':{'$gt':50, '$lt':70}}
     selector ={'student': 1, '_id':0}
 
     try:
-        curs = scores.find(query, selector)
+        curs = scores.find(query)
     except:
         print 'Unexpected error: ', sys.exc_info()[0]
 
