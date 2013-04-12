@@ -11,9 +11,16 @@ connection = MongoClient('localhost', 27017)
 db = connection.reddit
 stories = db.stories
 
-# get the phlegm clot of information that is the Reddit homepage
 
-reddit_page = urllib2.urlopen('http://www.reddit.com/r/technology/.json')
+url = 'http://www.reddit.com/r/technology/.json'
+hdrs = { 'User-Agent' : 'Bob Dobbs' }
+req = urllib2.Request(url, headers=hdrs)
+reddit_page = urllib2.urlopen(req)
+
+# get the phlegm clot of information that is the Reddit homepage
+# http = urllib3.PoolManager()
+
+# reddit_page = http.request('GET', 'http://www.reddit.com/r/technology/.json')
 
 # parse json into python objects
 
