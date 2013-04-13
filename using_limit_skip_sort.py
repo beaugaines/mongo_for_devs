@@ -25,3 +25,5 @@ def find():
     for doc in curs:
         print doc
 
+
+find()
