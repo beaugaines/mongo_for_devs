@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"try",
+				"try	Try/Except"
+			]
 		]
 	},
 	"buffers":
@@ -16,10 +20,58 @@
 			}
 		},
 		{
-			"file": "pymongo_1.py",
+			"file": "read_reddit.py",
 			"settings":
 			{
-				"buffer_size": 290,
+				"buffer_size": 772,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "using_regex.py",
+			"settings":
+			{
+				"buffer_size": 1044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "using_limit_skip_sort.py",
+			"settings":
+			{
+				"buffer_size": 538,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "using_insert.py",
+			"settings":
+			{
+				"buffer_size": 608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "using_update.py",
+			"settings":
+			{
+				"buffer_size": 2500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "using_upsert.py",
+			"settings":
+			{
+				"buffer_size": 1005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "using_find_and_modify.py",
+			"settings":
+			{
+				"buffer_size": 729,
 				"line_ending": "Unix"
 			}
 		}
@@ -64,6 +116,8 @@
 	},
 	"file_history":
 	[
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_import.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/pymongo_1.py",
 		"/home/sircharles/programming/python/MIT course/drunken_walk.py",
 		"/home/sircharles/programming/python/MIT course/hardNuts.py",
 		"/home/sircharles/programming/python/MIT course/toolbox.py",
@@ -189,9 +243,7 @@
 		"/home/sircharles/rails_projects/shouty-todo/app/controllers/application_controller.rb",
 		"/home/sircharles/rails_projects/shouty-todo/db/schema.rb",
 		"/home/sircharles/rails_projects/shouty-todo/db/migrate/20130114222828_create_users.rb",
-		"/home/sircharles/rails_projects/shouty-todo/config/routes.rb",
-		"/home/sircharles/rails_projects/shouty-todo/db/seeds.rb",
-		"/home/sircharles/rails_projects/shouty-todo/app/views/layouts/_header.html.haml"
+		"/home/sircharles/rails_projects/shouty-todo/config/routes.rb"
 	],
 	"find":
 	{
@@ -211,6 +263,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"homework",
+			"/.",
 			"formality",
 			") ",
 			"function",
@@ -222,6 +276,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"exam"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -232,7 +287,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -247,8 +302,8 @@
 						"selection":
 						[
 							[
-								400,
-								400
+								807,
+								807
 							]
 						],
 						"settings":
@@ -258,25 +313,183 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 95.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "pymongo_1.py",
+					"file": "read_reddit.py",
 					"settings":
 					{
-						"buffer_size": 290,
+						"buffer_size": 772,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								285,
-								285
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "using_regex.py",
+					"settings":
+					{
+						"buffer_size": 1044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								781
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 303.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "using_limit_skip_sort.py",
+					"settings":
+					{
+						"buffer_size": 538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "using_insert.py",
+					"settings":
+					{
+						"buffer_size": 608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "using_update.py",
+					"settings":
+					{
+						"buffer_size": 2500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "using_upsert.py",
+					"settings":
+					{
+						"buffer_size": 1005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "using_find_and_modify.py",
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
 							]
 						],
 						"settings":
@@ -337,6 +550,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"find",
+				"using_find.py"
+			],
 			[
 				"hard",
 				"hardNuts.py"
