@@ -10,7 +10,7 @@ connection = MongoClient('localhost', 27017)
 db = connection.students
 grades = db.grades
 
-# get all students homework scores
+# get all students homework scores, sort by student_id and then score
 
 def remove_lowest_homework():
     query = { 'type' : 'homework' }
@@ -21,6 +21,7 @@ def remove_lowest_homework():
         print 'Query failed: ', sys.exc_info()[0]
 
 
+    # iterate over the cursor, removing the first record of every student
     index = 0
     for rec in homeworks:
         if index == rec['student_id']:
