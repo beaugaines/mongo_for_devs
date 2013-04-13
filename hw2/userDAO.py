@@ -55,7 +55,7 @@ class UserDAO:
         try:
             # XXX HW 2.3 Students Work Here
             # you will need to retrieve right document from the users collection.
-            print "This space intentionally left blank."
+            user = self.db.find(username, password)
         except:
             print "Unable to query database for user"
 
@@ -85,8 +85,8 @@ class UserDAO:
             # XXX HW 2.3 Students work here
             # You need to insert the user into the users collection.
             # Don't over think this one, it's a straight forward insert.
+            self.db.insert(username, password, email)
 
-            print "This space intentionally left blank."
 
         except pymongo.errors.OperationFailure:
             print "oops, mongo error"
