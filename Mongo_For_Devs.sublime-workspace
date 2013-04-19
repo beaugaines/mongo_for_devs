@@ -39,7 +39,7 @@
 			"file": "using_limit_skip_sort.py",
 			"settings":
 			{
-				"buffer_size": 538,
+				"buffer_size": 545,
 				"line_ending": "Unix"
 			}
 		},
@@ -302,8 +302,8 @@
 						"selection":
 						[
 							[
-								807,
-								807
+								806,
+								806
 							]
 						],
 						"settings":
@@ -356,13 +356,15 @@
 						"selection":
 						[
 							[
-								781,
-								781
+								780,
+								780
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 303.0,
@@ -375,7 +377,7 @@
 					"file": "using_limit_skip_sort.py",
 					"settings":
 					{
-						"buffer_size": 538,
+						"buffer_size": 545,
 						"regions":
 						{
 						},
@@ -442,7 +444,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -468,7 +472,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -488,13 +494,15 @@
 						"selection":
 						[
 							[
-								724,
-								724
+								723,
+								723
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
