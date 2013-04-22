@@ -21,7 +21,7 @@ __author__ = 'aje'
 import sys
 import re
 import datetime
-
+import pymongo
 
 
 # The Blog Post Data Access Object handles interactions with the Posts collection
@@ -67,7 +67,7 @@ class BlogPostDAO:
 
         cursor = []         # Placeholder so blog compiles before you make your changes
 
-        cursor = self.posts.find( { } ).sort('date', pymongo.DESCENDING).limit(num_posts)
+        cursor = self.posts.find().sort('date', pymongo.DESCENDING).limit(num_posts)
 
 
         l = []
@@ -113,6 +113,13 @@ class BlogPostDAO:
             last_error = {'n':-1}           # this is here so the code runs before you fix the next line
             post = self.posts.find_one( { 'permalink': permalink } )
 
+            if post is not None:
+                comments = []
+                comments = post['comments']
+                comments.append(comment)
+
+            last_error = self.posts.update( { '_id' : post['_id'] },
+                { '$set' : { 'comments' : comments } }, upsert=True )
 
             return last_error['n']          # return the number of documents updated
 
