@@ -302,8 +302,8 @@
 						"selection":
 						[
 							[
-								806,
-								806
+								804,
+								804
 							]
 						],
 						"settings":
@@ -356,8 +356,8 @@
 						"selection":
 						[
 							[
-								780,
-								780
+								778,
+								778
 							]
 						],
 						"settings":
@@ -494,8 +494,8 @@
 						"selection":
 						[
 							[
-								723,
-								723
+								721,
+								721
 							]
 						],
 						"settings":
@@ -898,6 +898,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"ruby",
+				"/home/sircharles/programming/ruby/ruby_hacking.sublime-project"
+			],
 			[
 				"mit",
 				"/home/sircharles/programming/python/MIT course/MIT_Python.sublime-project"
