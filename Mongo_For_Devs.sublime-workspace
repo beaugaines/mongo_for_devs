@@ -12,66 +12,10 @@
 	"buffers":
 	[
 		{
-			"file": "using_find.py",
+			"file": "hw3/blogPostDAO.py",
 			"settings":
 			{
-				"buffer_size": 807,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "read_reddit.py",
-			"settings":
-			{
-				"buffer_size": 772,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "using_regex.py",
-			"settings":
-			{
-				"buffer_size": 1044,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "using_limit_skip_sort.py",
-			"settings":
-			{
-				"buffer_size": 545,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "using_insert.py",
-			"settings":
-			{
-				"buffer_size": 608,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "using_update.py",
-			"settings":
-			{
-				"buffer_size": 2500,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "using_upsert.py",
-			"settings":
-			{
-				"buffer_size": 1005,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "using_find_and_modify.py",
-			"settings":
-			{
-				"buffer_size": 729,
+				"buffer_size": 4086,
 				"line_ending": "Unix"
 			}
 		}
@@ -116,8 +60,19 @@
 	},
 	"file_history":
 	[
-		"/home/sircharles/sshfs/webdev/mongodb_course/using_import.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/remove_lowest_grade.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/read_reddit.py",
 		"/home/sircharles/sshfs/webdev/mongodb_course/pymongo_1.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/Mongo_For_Devs.sublime-project",
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_upsert.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_update.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_insert.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_limit_skip_sort.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_regex.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_find.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_find_and_modify.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/remove_lowest_grade_2.py",
+		"/home/sircharles/sshfs/webdev/mongodb_course/using_import.py",
 		"/home/sircharles/programming/python/MIT course/drunken_walk.py",
 		"/home/sircharles/programming/python/MIT course/hardNuts.py",
 		"/home/sircharles/programming/python/MIT course/toolbox.py",
@@ -232,18 +187,7 @@
 		"/home/sircharles/Dropbox/CODE/S'ford DB Course/dtd_exercise_2.dtd",
 		"/home/sircharles/Dropbox/CODE/S'ford DB Course/dtd_exercise_3.dtd",
 		"/home/sircharles/rails_projects/shouty-todo/app/assets/stylesheets/application.scss",
-		"/home/sircharles/rails_projects/shouty-todo/app/views/todos/update.html.haml",
-		"/home/sircharles/rails_projects/shouty-todo/app/views/todos/destroy.js.erb",
-		"/home/sircharles/rails_projects/shouty-todo/Gemfile",
-		"/home/sircharles/Dropbox/CODE/S'ford DB Course/dtd_exercise.dtd",
-		"/home/sircharles/rails_projects/shouty-todo/app/assets/javascripts/application.js",
-		"/home/sircharles/rails_projects/shouty-todo/app/views/todos/new.js.haml",
-		"/home/sircharles/rails_projects/shouty-todo/app/helpers/application_helper.rb",
-		"/home/sircharles/rails_projects/shouty-todo/app/assets/stylesheets/foundation_and_overrides.scss",
-		"/home/sircharles/rails_projects/shouty-todo/app/controllers/application_controller.rb",
-		"/home/sircharles/rails_projects/shouty-todo/db/schema.rb",
-		"/home/sircharles/rails_projects/shouty-todo/db/migrate/20130114222828_create_users.rb",
-		"/home/sircharles/rails_projects/shouty-todo/config/routes.rb"
+		"/home/sircharles/rails_projects/shouty-todo/app/views/todos/update.html.haml"
 	],
 	"find":
 	{
@@ -287,97 +231,15 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "using_find.py",
+					"file": "hw3/blogPostDAO.py",
 					"settings":
 					{
-						"buffer_size": 807,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								804,
-								804
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "read_reddit.py",
-					"settings":
-					{
-						"buffer_size": 772,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								388,
-								388
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "using_regex.py",
-					"settings":
-					{
-						"buffer_size": 1044,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								778,
-								778
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 303.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "using_limit_skip_sort.py",
-					"settings":
-					{
-						"buffer_size": 545,
+						"buffer_size": 4086,
 						"regions":
 						{
 						},
@@ -386,116 +248,6 @@
 							[
 								0,
 								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "using_insert.py",
-					"settings":
-					{
-						"buffer_size": 608,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "using_update.py",
-					"settings":
-					{
-						"buffer_size": 2500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43,
-								43
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "using_upsert.py",
-					"settings":
-					{
-						"buffer_size": 1005,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								27
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "using_find_and_modify.py",
-					"settings":
-					{
-						"buffer_size": 729,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								721,
-								721
 							]
 						],
 						"settings":
@@ -558,6 +310,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"mongo",
+				"Mongo_For_Devs.sublime-project"
+			],
+			[
+				"remove",
+				"remove_lowest_grade.py"
+			],
 			[
 				"find",
 				"using_find.py"
@@ -899,12 +659,20 @@
 		"selected_items":
 		[
 			[
-				"ruby",
-				"/home/sircharles/programming/ruby/ruby_hacking.sublime-project"
+				"twi",
+				"/home/sircharles/sshfs/rails/super_twit/super_twit.sublime-project"
+			],
+			[
+				"MONGO",
+				"/home/sircharles/sshfs/webdev/mongo_in_action/MONGO_in_action.sublime-project"
 			],
 			[
 				"mit",
 				"/home/sircharles/programming/python/MIT course/MIT_Python.sublime-project"
+			],
+			[
+				"ruby",
+				"/home/sircharles/programming/ruby/ruby_hacking.sublime-project"
 			],
 			[
 				"java",
@@ -936,7 +704,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 241.0,
 	"status_bar_visible": false
 }
