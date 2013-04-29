@@ -659,6 +659,10 @@
 		"selected_items":
 		[
 			[
+				"twit",
+				"/home/sircharles/sshfs/rails/super_twit/super_twit.sublime-project"
+			],
+			[
 				"twi",
 				"/home/sircharles/sshfs/rails/super_twit/super_twit.sublime-project"
 			],
@@ -704,7 +708,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 241.0,
 	"status_bar_visible": false
 }
