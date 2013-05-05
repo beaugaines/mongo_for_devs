@@ -26,6 +26,14 @@
 				"buffer_size": 10946,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "remove_lowest_grade_2.py",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -239,7 +247,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -294,6 +302,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 359.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "remove_lowest_grade_2.py",
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
