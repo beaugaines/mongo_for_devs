@@ -18,6 +18,14 @@
 				"buffer_size": 4086,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "hw4-3/blog.py",
+			"settings":
+			{
+				"buffer_size": 10946,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -231,7 +239,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -258,6 +266,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hw4-3/blog.py",
+					"settings":
+					{
+						"buffer_size": 10946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1507,
+								1507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 359.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -310,6 +346,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"blog",
+				"hw4-3/blog.py"
+			],
 			[
 				"mongo",
 				"Mongo_For_Devs.sublime-project"
@@ -659,6 +699,10 @@
 		"selected_items":
 		[
 			[
+				"mit",
+				"/home/sircharles/programming/python/MIT course/MIT_Python.sublime-project"
+			],
+			[
 				"twit",
 				"/home/sircharles/sshfs/rails/super_twit/super_twit.sublime-project"
 			],
@@ -669,10 +713,6 @@
 			[
 				"MONGO",
 				"/home/sircharles/sshfs/webdev/mongo_in_action/MONGO_in_action.sublime-project"
-			],
-			[
-				"mit",
-				"/home/sircharles/programming/python/MIT course/MIT_Python.sublime-project"
 			],
 			[
 				"ruby",
