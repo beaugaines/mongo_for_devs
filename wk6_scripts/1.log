@@ -1,0 +1,141 @@
+Sun May 12 16:10:15.989 [initandlisten] MongoDB starting : pid=28699 port=27017 dbpath=/home/sircharles/data/rs1 32-bit host=yeOldeDell
+Sun May 12 16:10:15.989 [initandlisten] 
+Sun May 12 16:10:15.989 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Sun May 12 16:10:15.989 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Sun May 12 16:10:15.989 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Sun May 12 16:10:15.989 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Sun May 12 16:10:15.990 [initandlisten] 
+Sun May 12 16:10:15.990 [initandlisten] db version v2.4.3
+Sun May 12 16:10:15.990 [initandlisten] git version: fe1743177a5ea03e91e0052fb5e2cb2945f6d95f
+Sun May 12 16:10:15.990 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Sun May 12 16:10:15.990 [initandlisten] allocator: system
+Sun May 12 16:10:15.990 [initandlisten] options: { dbpath: "/home/sircharles/data/rs1", fork: true, logpath: "1.log", port: 27017, replSet: "m101", smallfiles: true }
+Sun May 12 16:10:16.086 [FileAllocator] allocating new datafile /home/sircharles/data/rs1/local.ns, filling with zeroes...
+Sun May 12 16:10:16.086 [FileAllocator] creating directory /home/sircharles/data/rs1/_tmp
+Sun May 12 16:10:16.136 [FileAllocator] done allocating datafile /home/sircharles/data/rs1/local.ns, size: 16MB,  took 0.016 secs
+Sun May 12 16:10:16.136 [FileAllocator] allocating new datafile /home/sircharles/data/rs1/local.0, filling with zeroes...
+Sun May 12 16:10:16.169 [FileAllocator] done allocating datafile /home/sircharles/data/rs1/local.0, size: 16MB,  took 0.032 secs
+Sun May 12 16:10:16.173 [websvr] admin web console waiting for connections on port 28017
+Sun May 12 16:10:16.173 [initandlisten] waiting for connections on port 27017
+Sun May 12 16:10:16.176 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:10:16.176 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+Sun May 12 16:10:26.176 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:10:33.231 [initandlisten] connection accepted from 127.0.0.1:40584 #1 (1 connection now open)
+Sun May 12 16:10:36.176 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:10:43.784 [conn1] end connection 127.0.0.1:40584 (0 connections now open)
+Sun May 12 16:10:46.177 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:10:56.177 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:11:06.177 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:11:07.935 [initandlisten] connection accepted from 127.0.0.1:40586 #2 (1 connection now open)
+Sun May 12 16:11:07.975 [conn2] replSet replSetInitiate admin command received from client
+Sun May 12 16:11:07.977 [conn2] replSet replSetInitiate config object parses ok, 3 members specified
+Sun May 12 16:11:08.109 [conn2] replSet replSetInitiate exception: initiation and reconfiguration of a replica set must be sent to a node that can become primary
+Sun May 12 16:11:08.109 [conn2] command admin.$cmd command: { replSetInitiate: { _id: "m101", members: [ { _id: 0.0, host: "yeOldeDell.local:27017", priority: 0.0, slaveDelay: 5.0 }, { _id: 1.0, host: "yeOldeDell.local:27018" }, { _id: 2.0, host: "yeOldeDell.local:27019" } ] } } ntoreturn:1 keyUpdates:0 locks(micros) W:1634 reslen:164 133ms
+Sun May 12 16:11:08.151 [conn2] end connection 127.0.0.1:40586 (0 connections now open)
+Sun May 12 16:11:16.178 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:11:26.178 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:11:31.877 [initandlisten] connection accepted from 127.0.0.1:40588 #3 (1 connection now open)
+Sun May 12 16:11:31.901 [conn3] replSet replSetInitiate admin command received from client
+Sun May 12 16:11:31.901 [conn3] replSet replSetInitiate config object parses ok, 3 members specified
+Sun May 12 16:11:31.901 [conn3] replSet replSetInitiate exception: initiation and reconfiguration of a replica set must be sent to a node that can become primary
+Sun May 12 16:11:31.918 [conn3] end connection 127.0.0.1:40588 (0 connections now open)
+Sun May 12 16:11:36.178 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:11:46.178 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:11:56.179 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:12:06.179 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:12:16.179 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:12:26.180 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:12:36.180 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:12:46.181 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:12:56.181 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:13:06.181 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:13:16.182 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:13:26.182 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:13:36.182 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:13:46.183 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:13:56.183 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:13:57.136 [initandlisten] connection accepted from 10.0.0.6:54418 #4 (1 connection now open)
+Sun May 12 16:14:06.183 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 16:14:16.184 [rsStart] trying to contact yeOldeDell.local:27018
+Sun May 12 16:14:16.185 [rsStart] replSet I am yeOldeDell.local:27017
+Sun May 12 16:14:16.185 [rsStart] replSet got config version 1 from a remote, saving locally
+Sun May 12 16:14:16.185 [rsStart] replSet info saving a newer config version to local.system.replset
+Sun May 12 16:14:16.296 [rsStart] replSet saveConfigLocally done
+Sun May 12 16:14:16.296 [rsStart] replSet STARTUP2
+Sun May 12 16:14:16.297 [rsSync] ******
+Sun May 12 16:14:16.297 [rsSync] creating replication oplog of size: 50MB...
+Sun May 12 16:14:16.297 [FileAllocator] allocating new datafile /home/sircharles/data/rs1/local.1, filling with zeroes...
+Sun May 12 16:14:16.355 [FileAllocator] done allocating datafile /home/sircharles/data/rs1/local.1, size: 64MB,  took 0.057 secs
+Sun May 12 16:14:16.580 [rsSync] ******
+Sun May 12 16:14:16.581 [rsSync] replSet initial sync pending
+Sun May 12 16:14:16.581 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+Sun May 12 16:14:18.186 [rsHealthPoll] replSet member yeOldeDell.local:27018 is up
+Sun May 12 16:14:18.186 [rsHealthPoll] replSet member yeOldeDell.local:27018 is now in state SECONDARY
+Sun May 12 16:14:18.187 [rsHealthPoll] replset info yeOldeDell.local:27019 thinks that we are down
+Sun May 12 16:14:18.187 [rsHealthPoll] replSet member yeOldeDell.local:27019 is up
+Sun May 12 16:14:18.187 [rsHealthPoll] replSet member yeOldeDell.local:27019 is now in state STARTUP2
+Sun May 12 16:14:18.479 [initandlisten] connection accepted from 10.0.0.6:54423 #5 (2 connections now open)
+Sun May 12 16:14:20.320 [conn4] end connection 10.0.0.6:54418 (1 connection now open)
+Sun May 12 16:14:20.321 [initandlisten] connection accepted from 10.0.0.6:54425 #6 (2 connections now open)
+Sun May 12 16:14:24.321 [conn6] replSet RECOVERING
+Sun May 12 16:14:24.321 [conn6] replSet info voting yea for yeOldeDell.local:27018 (1)
+Sun May 12 16:14:26.187 [rsHealthPoll] replSet member yeOldeDell.local:27018 is now in state PRIMARY
+Sun May 12 16:14:26.188 [rsHealthPoll] replSet member yeOldeDell.local:27019 is now in state RECOVERING
+Sun May 12 16:14:32.481 [conn5] end connection 10.0.0.6:54423 (1 connection now open)
+Sun May 12 16:14:32.482 [initandlisten] connection accepted from 10.0.0.6:54428 #7 (2 connections now open)
+Sun May 12 16:14:32.581 [rsSync] replSet initial sync pending
+Sun May 12 16:14:32.581 [rsSync] replSet syncing to: yeOldeDell.local:27018
+Sun May 12 16:14:32.584 [rsSync] build index local.me { _id: 1 }
+Sun May 12 16:14:32.586 [rsSync] build index done.  scanned 0 total records. 0.002 secs
+Sun May 12 16:14:32.612 [rsSync] build index local.replset.minvalid { _id: 1 }
+Sun May 12 16:14:32.612 [rsSync] build index done.  scanned 0 total records. 0 secs
+Sun May 12 16:14:32.612 [rsSync] replSet initial sync drop all databases
+Sun May 12 16:14:32.612 [rsSync] dropAllDatabasesExceptLocal 1
+Sun May 12 16:14:32.612 [rsSync] replSet initial sync clone all databases
+Sun May 12 16:14:32.613 [rsSync] replSet initial sync data copy, starting syncup
+Sun May 12 16:14:32.613 [rsSync] oplog sync 1 of 3
+Sun May 12 16:14:32.613 [rsSync] oplog sync 2 of 3
+Sun May 12 16:14:32.613 [rsSync] replSet initial sync building indexes
+Sun May 12 16:14:32.613 [rsSync] oplog sync 3 of 3
+Sun May 12 16:14:32.614 [rsSync] replSet initial sync finishing up
+Sun May 12 16:14:32.756 [rsSync] replSet set minValid=518ff806:1
+Sun May 12 16:14:32.806 [rsSync] replSet initial sync done
+Sun May 12 16:14:33.298 [rsBackgroundSync] replSet syncing to: yeOldeDell.local:27018
+Sun May 12 16:14:33.807 [rsSyncNotifier] replset setting oplog notifier to yeOldeDell.local:27018
+Sun May 12 16:14:34.809 [rsSync] replSet SECONDARY
+Sun May 12 16:14:36.190 [rsHealthPoll] replSet member yeOldeDell.local:27019 is now in state SECONDARY
+Sun May 12 16:14:50.327 [conn6] end connection 10.0.0.6:54425 (1 connection now open)
+Sun May 12 16:14:50.327 [initandlisten] connection accepted from 10.0.0.6:54438 #8 (2 connections now open)
+Sun May 12 16:15:02.488 [conn7] end connection 10.0.0.6:54428 (1 connection now open)
+Sun May 12 16:15:02.489 [initandlisten] connection accepted from 10.0.0.6:54440 #9 (2 connections now open)
+Sun May 12 16:15:20.334 [conn8] end connection 10.0.0.6:54438 (1 connection now open)
+Sun May 12 16:15:20.334 [initandlisten] connection accepted from 10.0.0.6:54444 #10 (2 connections now open)
+Sun May 12 16:15:32.495 [conn9] end connection 10.0.0.6:54440 (1 connection now open)
+Sun May 12 16:15:32.495 [initandlisten] connection accepted from 10.0.0.6:54447 #11 (2 connections now open)
+Sun May 12 16:15:32.823 [initandlisten] connection accepted from 127.0.0.1:40623 #12 (3 connections now open)
+Sun May 12 16:15:32.823 [conn12] end connection 127.0.0.1:40623 (2 connections now open)
+Sun May 12 16:15:50.340 [conn10] end connection 10.0.0.6:54444 (1 connection now open)
+Sun May 12 16:15:50.340 [initandlisten] connection accepted from 10.0.0.6:54454 #13 (2 connections now open)
+Sun May 12 16:16:02.502 [conn11] end connection 10.0.0.6:54447 (1 connection now open)
+Sun May 12 16:16:02.502 [initandlisten] connection accepted from 10.0.0.6:54456 #14 (2 connections now open)
+Sun May 12 16:16:20.346 [conn13] end connection 10.0.0.6:54454 (1 connection now open)
+Sun May 12 16:16:20.347 [initandlisten] connection accepted from 10.0.0.6:54460 #15 (2 connections now open)
+Sun May 12 16:16:32.508 [conn14] end connection 10.0.0.6:54456 (1 connection now open)
+Sun May 12 16:16:32.509 [initandlisten] connection accepted from 10.0.0.6:54463 #16 (2 connections now open)
+Sun May 12 16:16:50.352 [conn15] end connection 10.0.0.6:54460 (1 connection now open)
+Sun May 12 16:16:50.353 [initandlisten] connection accepted from 10.0.0.6:54467 #17 (2 connections now open)
+Sun May 12 16:16:58.089 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+Sun May 12 16:16:58.089 [signalProcessingThread] now exiting
+Sun May 12 16:16:58.089 dbexit: 
+Sun May 12 16:16:58.089 [signalProcessingThread] shutdown: going to close listening sockets...
+Sun May 12 16:16:58.089 [signalProcessingThread] closing listening socket: 7
+Sun May 12 16:16:58.089 [signalProcessingThread] closing listening socket: 8
+Sun May 12 16:16:58.089 [signalProcessingThread] closing listening socket: 9
+Sun May 12 16:16:58.089 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+Sun May 12 16:16:58.089 [signalProcessingThread] shutdown: going to flush diaglog...
+Sun May 12 16:16:58.089 [signalProcessingThread] shutdown: going to close sockets...
+Sun May 12 16:16:58.089 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Sun May 12 16:16:58.089 [signalProcessingThread] shutdown: closing all files...
+Sun May 12 16:16:58.089 [signalProcessingThread] closeAllFiles() finished
+Sun May 12 16:16:58.089 [signalProcessingThread] shutdown: removing fs lock...
+Sun May 12 16:16:58.089 dbexit: really exiting now
